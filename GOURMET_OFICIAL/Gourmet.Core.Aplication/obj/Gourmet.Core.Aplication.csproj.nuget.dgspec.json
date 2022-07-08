@@ -1,0 +1,322 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Aplication\\Gourmet.Core.Aplication.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Adaptors.SQLServerDataAccess\\Gourmet.Adaptors.SQLServerDataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Adaptors.SQLServerDataAccess\\Gourmet.Adaptors.SQLServerDataAccess.csproj",
+        "projectName": "Gourmet.Adaptors.SQLServerDataAccess",
+        "projectPath": "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Adaptors.SQLServerDataAccess\\Gourmet.Adaptors.SQLServerDataAccess.csproj",
+        "packagesPath": "C:\\Users\\Donald Alvarez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Adaptors.SQLServerDataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Donald Alvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Domain\\Gourmet.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Domain\\Gourmet.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Aplication\\Gourmet.Core.Aplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Aplication\\Gourmet.Core.Aplication.csproj",
+        "projectName": "Gourmet.Core.Aplication",
+        "projectPath": "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Aplication\\Gourmet.Core.Aplication.csproj",
+        "packagesPath": "C:\\Users\\Donald Alvarez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Aplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Donald Alvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Domain\\Gourmet.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Domain\\Gourmet.Core.Domain.csproj"
+              },
+              "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Infraestructura\\Gourmet.Core.Infraestructura.csproj": {
+                "projectPath": "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Infraestructura\\Gourmet.Core.Infraestructura.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Domain\\Gourmet.Core.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Domain\\Gourmet.Core.Domain.csproj",
+        "projectName": "Gourmet.Core.Domain",
+        "projectPath": "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Domain\\Gourmet.Core.Domain.csproj",
+        "packagesPath": "C:\\Users\\Donald Alvarez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Donald Alvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Infraestructura\\Gourmet.Core.Infraestructura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Infraestructura\\Gourmet.Core.Infraestructura.csproj",
+        "projectName": "Gourmet.Core.Infraestructura",
+        "projectPath": "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Infraestructura\\Gourmet.Core.Infraestructura.csproj",
+        "packagesPath": "C:\\Users\\Donald Alvarez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Infraestructura\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Donald Alvarez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Adaptors.SQLServerDataAccess\\Gourmet.Adaptors.SQLServerDataAccess.csproj": {
+                "projectPath": "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Adaptors.SQLServerDataAccess\\Gourmet.Adaptors.SQLServerDataAccess.csproj"
+              },
+              "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Domain\\Gourmet.Core.Domain.csproj": {
+                "projectPath": "C:\\Users\\Donald Alvarez\\Desktop\\Ezamen_Final\\GOURMET_OFICIAL\\Gourmet.Core.Domain\\Gourmet.Core.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
